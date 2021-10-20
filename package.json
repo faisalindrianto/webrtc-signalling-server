@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-signalling-server",
+  "version": "1.0.0",
+  "description": "webrtc-signalling-server",
+  "author": {
+    "name": "Faisal Indrianto",
+    "email": "faisalindrianto.18@fik.narotama.ac.id",
+    "url": "https://github.com/faisalindrianto"
+  },
+  "scripts": {
+    "start": "node server -ssl"
+  },
+  "engines": {
+    "node": "~14.16.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-signal-server": "^3.0.0",
+    "socket.io": "^4.1.2"
+  }
+}
